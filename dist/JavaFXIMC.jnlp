@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXIMC.jnlp">
+  <information>
+    <title>JavaFXIMC</title>
+    <vendor>nico</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXIMC.jar" size="3028" download="eager" />
+    <jar href="lib/IMCApp.jar" size="4291" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFXIMC" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafximc.AppliIMC"  name="JavaFXIMC" />
+  <update check="always"/>
+</jnlp>
